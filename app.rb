@@ -21,8 +21,8 @@ end
 
 get "/multiply/:num1/:num2" do
   @sum = params[:num1] + params[:num2]
-  binding.rpy
+  binding.pry
 "#{@sum}"
 end
 
-e
+end
