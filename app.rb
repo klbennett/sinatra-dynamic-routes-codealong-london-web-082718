@@ -21,7 +21,7 @@ end
 
 get "/multiply/:num1/:num2" do
   @sum = params[:num1] + params[:num2]
-<%= "#{@sum}"%>
+"#{@sum}"
 end
 
 end
